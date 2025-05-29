@@ -6,6 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <span role="img" aria-label="unicorn" style={{ fontSize: "4rem" }}>
+          🦄
+        </span>
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
