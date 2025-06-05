@@ -2,8 +2,8 @@ import React from "react";
 import { render, screen } from "@testing-library/react";
 import App from "./App";
 
-test("renders a unicorn emoji", () => {
+test("renders the web page heading", () => {
   render(<App />);
-  const unicorn = screen.getByLabelText(/unicorn/i);
-  expect(unicorn).toBeInTheDocument();
+  const heading = screen.getByText(/Welcome to Your New Web Page!/i);
+  expect(heading).toBeInTheDocument();
 });
