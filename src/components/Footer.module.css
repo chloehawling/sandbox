@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  background: #f8fafc;
+  border-top: 1px solid #e0e0e0;
+  color: #6d6875;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+.socials a {
+  color: #6d6875;
+  text-decoration: underline;
+  font-size: 1rem;
+}
+@media (max-width: 600px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+    padding: 1rem;
+    font-size: 0.92rem;
+  }
+}
