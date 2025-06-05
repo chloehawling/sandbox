@@ -1,0 +1,26 @@
+.main {
+  max-width: 400px;
+  margin: 3.5rem auto 2rem;
+  padding: 0 1rem;
+  text-align: center;
+  color: #22223b;
+}
+h2 {
+  color: #e07a5f;
+  margin-bottom: 1.1rem;
+}
+.link {
+  margin-top: 1.7rem;
+  display: inline-block;
+  color: #fff;
+  background: #3d405b;
+  padding: 0.6rem 1.5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.18s;
+}
+.link:hover {
+  background: #e07a5f;
+  color: #fff;
+}
